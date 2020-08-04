@@ -143,7 +143,7 @@ class _KChartWidgetState extends State<KChartWidget>  with SingleTickerProviderS
 
   void notifyChanged() => setState(() {});
 
-  List<String> infoNames = ["时间", "开", "高", "低", "收", "涨跌额", "涨幅", "成交量"];
+  List<String> infoNames = ["Time", "Open", "High", "Low", "Close", "UpDown", "Change", "Vol"];
   List infos;
 
   Widget _buildInfoDialog() {
